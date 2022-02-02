@@ -1,0 +1,30 @@
+## First number is the percent the letter occurs in english vocabulary. Can't use percent in english text because words like "the"
+## are so common and skew the results. Second number is the relative frequency, so "a" appears 43x as much as "q".
+letterScores = {
+    "a": (8.50, 43.31),
+    "b": (2.07, 10.56),
+    "c": (4.54, 23.13),
+    "d": (3.38, 17.25),
+    "e": (11.16, 56.88),
+    "f": (1.81, 9.24),
+    "g": (2.47, 12.59),
+    "h": (3.00, 15.31),
+    "i": (7.54, 38.45),
+    "j": (0.20, 1.00),
+    "k": (1.10, 5.61),
+    "l": (5.49, 27.98),
+    "m": (3.01, 15.36),
+    "n": (6.65, 33.92),
+    "o": (7.16, 36.51),
+    "p": (3.17, 16.14),
+    "q": (.20, 1.00),
+    "r": (7.58, 38.64),
+    "s": (5.74, 29.23),
+    "t": (6.95, 35.43),
+    "u": (3.63, 18.51),
+    "v": (1.01, 5.31),
+    "w": (1.29, 6.57),
+    "x": (0.29, 1.48),
+    "y": (1.78, 9.06),
+    "z": (0.27, 1.39)
+}
